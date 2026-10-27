@@ -1,0 +1,58 @@
+/* Main styling for Yukon Who We Are site */
+:root {
+    --primary: #002b5c; /* navy */
+    --secondary: #6c757d; /* gray */
+    --background: #f8f9fa;
+}
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background-color: var(--background);
+    color: var(--secondary);
+}
+h1, h2, h3 {
+    color: var(--primary);
+}
+av ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: var(--primary);
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+.card {
+    background: white;
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: .3rem;
+}
+.timeline {
+    list-style: none;
+    padding-left: 0;
+}
+timeline li {
+    margin-bottom:.5rem;
+}
+footer {
+    text-align:center;
+    padding:.5rem 0;
+    background:#e9ecef;
+}

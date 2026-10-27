@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Yukon – Who We Are</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a th:href="@{/home}">Home</a></li>
+            <li><a th:href="@{/team}">Team</a></li>
+            <li><a th:href="@{/history}">History</a></li>
+            <li><a th:href="@{/values}">Values</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="container" th:fragment="content">
+        <!-- Page specific content will be inserted here -->
+    </div>
+</main>
+<footer>
+    <p>&copy; 2026 Yukon Technologies</p>
+</footer>
+</body>
+</html>

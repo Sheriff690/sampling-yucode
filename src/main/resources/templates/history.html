@@ -1,0 +1,6 @@
+<div th:replace="layout :: content">
+    <h1>Company History</h1>
+    <ul class="timeline" th:each="m : ${milestones}">
+        <strong th:text="${m.year}"></strong>: <span th:text="${m.description}"></span>
+    </ul>
+</div>

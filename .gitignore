@@ -1,0 +1,77 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Development stuff
+ToDos.docx
+~$ToDos.docx
+
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+__pypackages__/
+
+# PyCharm and VS code
+.idea/
+__pycache__
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+target/
+*.log
+*.class
+.env
+*firebase-adminsdk*.json
+.idea/
+.vscode/
+*.iml
+*.DS_Store
+*.settings
+*.classpath
+*.project
+# Unnecessary Folders and files
+Reports/
+target/
+Notes.md
+views/
+logs/
+staff.txt
+*.png
+*.pdf
+*.docx
+*.xlsx  
+*.db
+*.log
+*.sqlite
+data.sqlite
+database/transactions.csv
+storage/data.sqlite
+storage/uploads/
+frontend/
+*.rar
+!README.md
+*.md

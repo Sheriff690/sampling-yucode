@@ -1,0 +1,11 @@
+<div th:replace="layout :: content">
+    <h1>Our Team</h1>
+    <div class="grid">
+        <div th:each="member : ${members}" class="card">
+            <img th:src="${member.photoUrl}" alt="" class="photo"/>
+            <h2 th:text="${member.name}"></h2>
+            <p th:text="${member.title}"></p>
+            <p th:text="${member.bio}"></p>
+        </div>
+    </div>
+</div>

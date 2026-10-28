@@ -1,3 +1,3 @@
 Sample README
 
-Done to check conflict resolution in action
+Done to check conflict resolution in action (Pull error)

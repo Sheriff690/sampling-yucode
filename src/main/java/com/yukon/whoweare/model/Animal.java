@@ -9,6 +9,7 @@ public class Animal {
         this.numberOfLegs = numberOfLegs;
     }
 
+
     public String getAnimalClass(){return animalClass;}
     public String getNumberOfLegs() {return numberOfLegs;}
 }

@@ -19,7 +19,7 @@ while count <= 5:
 
 class Demo:
     """
-    A sample demonstration class just to show capabilities
+    A sample demonstration class just to show capabilities of the IDE.
     """
 
     def __init__(self) -> None:
@@ -29,5 +29,5 @@ class Demo:
         return "Hello World of Programmers"
 
 
-newDemo = Demo()
+newDemo = Demo() # Instantiating the Demo class
 print(newDemo.great())

@@ -1,5 +1,3 @@
 Sample README
 
-Done to check conflict resolution to check the source of the Pull error 
-
-Checking colours
+Done to check conflict resolution in action (the Pull error)

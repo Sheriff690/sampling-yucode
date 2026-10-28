@@ -1,2 +1,3 @@
 Sample README
-Done for testing only
+
+Done to check conflict resolution

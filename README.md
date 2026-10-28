@@ -1,3 +1,3 @@
 Sample README
 
-Done to check conflict resolution
+Done to check conflict resolution in action
